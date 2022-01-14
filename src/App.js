@@ -3,13 +3,12 @@ import './App.css';
 
 
 const flower={
-  date: new Date(),
-   type: 'pion',
+   type: 'peony',
    price: 200,
 
    FlowerName:{
     imgUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8owE2EF_MEKAlyqWlvx07rYCKl0n34IGs7A&usqp=CAU',
-    name: 'white pion'
+    name: 'white peony'
    }
 }
 
@@ -18,7 +17,7 @@ const flower={
 function App() {
   return (
     <div className="App">
-   <Components type={flower.type} price={flower.price} date={flower.date} FlowerName={flower.FlowerName} />
+   <Components type={flower.type} price={flower.price}  FlowerName={flower.FlowerName} />
     </div>
   );
 }
