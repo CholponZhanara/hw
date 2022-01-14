@@ -1,0 +1,25 @@
+.components{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    background-color: cadetblue;
+}
+.components-img{
+    border-radius: 2px;
+    width: 300px;
+    height: 200px;
+}
+.components-text{
+    color: burlywood;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+.components2{
+    position: relative;
+    left: 100px;
+}
+
+
